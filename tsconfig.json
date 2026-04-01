@@ -12,6 +12,7 @@
 		"moduleResolution": "node",
 		"forceConsistentCasingInFileNames": true,
 		"noImplicitReturns": true,
+		"suppressImplicitAnyIndexErrors": true,
 		"noUnusedLocals": true,
 		"allowJs": true,
 		"skipLibCheck": true,
@@ -19,8 +20,7 @@
 		"strict": true,
 		"paths": {
 			"@/*": ["./src/*"],
-			"@@/*": ["./src/.umi/*"],
-			"react": ["./node_modules/@types/react"]
+			"@@/*": ["./src/.umi/*"]
 		}
 	},
 	"include": [
@@ -34,6 +34,7 @@
 		".eslintrc.js",
 		".stylelintrc.js",
 		".prettierrc.js",
+		"jest.config.js",
 		"mock/*"
 	],
 	"exclude": ["node_modules", "build", "dist", "scripts", "src/.umi/*", "webpack", "jest"]

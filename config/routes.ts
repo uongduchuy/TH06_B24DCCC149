@@ -42,7 +42,12 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
-
+	{
+		path: '/so-van-bang',
+		name: 'TH04: Quản lý sổ',
+		icon: 'book',
+		component: './SoVanBang',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
