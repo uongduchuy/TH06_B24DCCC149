@@ -48,6 +48,12 @@
 		icon: 'book',
 		component: './SoVanBang',
 	},
+	{
+		path: '/th05',
+		name: 'TH05: Quản lý CLB',
+		icon: 'TeamOutlined',
+		component: './TH05',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
@@ -84,6 +90,7 @@
 		layout: false,
 		hideInMenu: true,
 	},
+
 	{
 		path: '/',
 	},
