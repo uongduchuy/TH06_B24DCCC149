@@ -54,6 +54,12 @@
 		icon: 'TeamOutlined',
 		component: './TH05',
 	},
+	{
+		path: '/th06',
+		name: 'TH06: Lập kế hoạch du lịch',
+		icon: 'global',
+		component: './TH06',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
