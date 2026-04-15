@@ -60,20 +60,12 @@
 		icon: 'global',
 		component: './TH06',
 	},
-	// DANH MUC HE THONG
-	// {
-	// 	name: 'DanhMuc',
-	// 	path: '/danh-muc',
-	// 	icon: 'copy',
-	// 	routes: [
-	// 		{
-	// 			name: 'ChucVu',
-	// 			path: 'chuc-vu',
-	// 			component: './DanhMuc/ChucVu',
-	// 		},
-	// 	],
-	// },
-
+	{
+		path: '/ktgk',
+		name: 'KTGK: Quản lý đơn hàng',
+		icon: 'shopping',
+		component: './KTGK',
+	},
 	{
 		path: '/notification',
 		routes: [
